@@ -25,11 +25,6 @@ export default {
     return {
       items: [
         {
-          src: 'public/carousel1-100.jpg',
-          title: 'Justo y Facil',
-          subtitle: '¿Necesitas ayuda legal o la representación de un abogado?',
-        },
-        {
           src: 'public/carousel4-100.jpg',
           title: '¿Cansad@ de perseguir la pensión de alimentos?',
           subtitle: '¡Tenemos la solución!',
@@ -43,6 +38,11 @@ export default {
           src: 'public/carousel3-100.jpg',
           title: '¿Quieres divorciarte y tu ex se niega?',
           subtitle: '¡Tenemos la solución!',
+        }, 
+        {
+          src: 'public/carousel1-100.jpg',
+          title: 'Justo y Facil',
+          subtitle: '¿Necesitas ayuda legal o la representación de un abogado?',
         },
       ],
     };
