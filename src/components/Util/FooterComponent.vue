@@ -3,18 +3,35 @@
     class="text-center d-flex flex-column"
     color="#0b3db1"
   >
-    <div class="d-flex w-100 align-center px-4">
+    <!-- Contenido para pantallas grandes -->
+    <div class="d-none d-md-flex w-100 align-center px-4">
       <v-text class="text-body-2">Puedes seguirnos a través de nuestras redes sociales!</v-text>
       <v-spacer></v-spacer>
       <v-btn
         v-for="(icon, index) in icons"
         :key="index"
-        class="mx-7 my-5"
+        class="mx-2 my-5"
         :icon="icon.icon"
         variant="plain"
         size="small"
         @click="redirectToLink(icon.link)"
       ></v-btn>
+    </div>
+
+    <!-- Contenido para pantallas pequeñas -->
+    <div class="d-flex d-md-none flex-column align-center px-4">
+      <v-text class="text-body-2 ma-3">Puedes seguirnos a través de nuestras redes sociales!</v-text>
+      <div class="d-flex flex-row">
+        <v-btn
+          v-for="(icon, index) in icons"
+          :key="index"
+          class="mx-2 my-2"
+          :icon="icon.icon"
+          variant="plain"
+          size="small"
+          @click="redirectToLink(icon.link)"
+        ></v-btn>
+      </div>
     </div>
 
     <div class="pt-0"></div>

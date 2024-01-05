@@ -25,22 +25,22 @@ export default {
     return {
       items: [
         {
-          src: 'public/carousel4-100.jpg',
+          src: 'src/assets/img/carousel4-100.jpg',
           title: '¿Cansad@ de perseguir la pensión de alimentos?',
           subtitle: '¡Tenemos la solución!',
         },
         {
-          src: 'public/carousel2-100.jpg',
+          src: 'src/assets/img/carousel2-100.jpg',
           title: '¿Malos tratos en el trabajo?',
           subtitle: '¡Tenemos la solución!',
         },
         {
-          src: 'public/carousel3-100.jpg',
+          src: 'src/assets/img/carousel3-100.jpg',
           title: '¿Quieres divorciarte y tu ex se niega?',
           subtitle: '¡Tenemos la solución!',
         }, 
         {
-          src: 'public/carousel1-100.jpg',
+          src: 'src/assets/img/carousel1-100.jpg',
           title: 'Justo y Facil',
           subtitle: '¿Necesitas ayuda legal o la representación de un abogado?',
         },

@@ -1,13 +1,13 @@
 <template>
   <v-parallax
-    src="public/pexels-ekaterina-bolovtsova-6077326.jpg"
-    height="400"
+    src="src/assets/img/pexels-ekaterina-bolovtsova-6077326.jpg"
+    height="300"
     class="mx-5 d-flex justify-center align-center" 
     style="object-fit: cover;"
     elevation="10"
   >
   <div class="text-white d-flex justify-center align-center">
-    <h1 class="text-h2 font-weight-thin">
+    <h1 class="text-h2 font-weight-thin text-center">
         Quienes Somos
     </h1>
   </div>

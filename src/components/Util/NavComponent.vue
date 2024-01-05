@@ -4,7 +4,7 @@
         class="ml-4"
         :width="isSmallScreen ? 80: 90"
         aspect-ratio="16/9"
-        src="/public/logoNav.png"
+        src="src/assets/img/logoNav.png"
       ></v-img>
       <v-spacer></v-spacer>
         <div class="mr-6">
