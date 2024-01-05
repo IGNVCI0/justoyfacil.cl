@@ -1,6 +1,6 @@
 <template>
   <v-parallax
-    src="public/img/pexels-ekaterina-bolovtsova-6077326.jpg"
+    src="/img/pexels-ekaterina-bolovtsova-6077326.jpg"
     height="300"
     class="mx-5 d-flex justify-center align-center" 
     style="object-fit: cover;"
