@@ -1,7 +1,7 @@
 <template>
   <v-footer
     class="text-center d-flex flex-column"
-    color="#0b3db1"
+    color="#052467"
   >
     <!-- Contenido para pantallas grandes -->
     <div class="d-none d-md-flex w-100 align-center px-4">
