@@ -133,7 +133,7 @@
             id: 3,
             show: false,
             icon:'mdi-human-male-female-child',
-            imageUrl: 'public/img/abogadofamilia.jpg',
+            imageUrl: '/img/abogadofamilia.jpg',
             title: 'Derecho Familia',
             subtitle: 'Apoyo Legal en Asuntos Familiares Sensibles.',
             description: 'En el área del Derecho de Familia, entendemos la sensibilidad de los asuntos relacionados con el hogar y la familia. Brindamos apoyo legal compasivo en casos de divorcio, custodia, adopciones y otros temas familiares. Nuestro compromiso es guiarte a través de estos momentos difíciles y proteger tus intereses y los de tus seres queridos.',
